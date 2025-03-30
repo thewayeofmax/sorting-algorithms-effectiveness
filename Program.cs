@@ -4,11 +4,11 @@
     {
         static void Main(string[] args)
         {
-            int[] aa = Generators.GenerateFewUniques(10);
+            int[] aa = Generators.GenerateFewUniques(10000);
 
             foreach (int i in aa) 
             {
-                Console.WriteLine(i);
+                Console.Write(i + " ");
             }
         }
     }
